@@ -5,9 +5,9 @@ Ultrasonic Sensor HC-SR04 With Node.js
 
 1. Install module serialport, express, socket.io
 ```
-node install serialport --save
-node install express --save
-node install socket.io --save
+npm install serialport --save
+npm install express --save
+npm install socket.io --save
 ```
 
 2. Add port "i use 3005"
