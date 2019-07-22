@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sensor Ultrasonic Jarak</title>
+</head>
+<body>
+
+<script>
+	var socket = io.connect("http://localhost:3005");
+
+	socket.on('map', function(data){
+		document.getElementById('hello').innerHTML = data;
+			if (data == 0){
+				document.getElementById('secure').innerHTML = "Barang Hilang";
+			}else{
+				document.getElementById('secure').innerHTML = "Barang Aman";
+			}
+	});            
+</script>
+
+
+</body>
+</html>
