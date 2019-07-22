@@ -17,8 +17,8 @@ var serialPort = new SerialPort('COM6', {
 
 //bot telegram
 var request = require('request');
-var bot_token = '866692763:AAFkrHavzqArBHthi3jSWgIxj-6iiOgBH5g'
-var bot_chatID = '675910890'
+var bot_token = ''
+var bot_chatID = '6'
 var bot_message = 'Barang anda Hilang'
 var send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
