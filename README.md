@@ -10,11 +10,11 @@ npm install express --save
 npm install socket.io --save
 ```
 
-2. Add port "i use 3005"
+2. Add port "im using 3005"
 ```
 var server = app.listen(3005);
 ```
-3. Add serial port. i use COM6 because i connect my arduino in COM6
+3. Add serial port. im using COM6 because im connected my arduino in COM6
 ```
 var serialPort = new SerialPort('COM6', {
   baudRate: 9600
@@ -31,4 +31,4 @@ var send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_
 ```
 node run.js
 ```
-6. open index.html. btw you can add css xD
+6. open index.html. btw you can add css for good interface xD
